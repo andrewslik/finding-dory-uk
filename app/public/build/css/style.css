@@ -1,0 +1,567 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none
+}
+body {
+    font-family: "futura-pt", Arial, sans-serif;
+    background-color: white;
+    font-weight: 400;
+}
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+    margin-bottom: 0px;
+}
+strong {
+    font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "futura-pt", Arial, sans-serif;
+    font-weight: 600;
+}
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 18px;
+}
+p {
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+span {
+    font-size: 12px;
+    line-height: 16px;
+}
+section {
+    line-height: 0px;
+    text-align: center;
+}
+input {
+    font-size: 16px;
+}
+.qantas-cta {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.qantas-cta > img {
+    width: 100%;
+}
+.yellow {
+    color: #e6bd2d;
+}
+.columns {
+    position: relative;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix {
+    zoom: 1;
+}
+
+/* IE6 */
+
+*:first-child+html .clearfix {
+    zoom: 1;
+}
+
+/* IE7 */
+
+th, td {
+    border-bottom: none;
+}
+.show-mobile {
+    display: none !important;
+}
+.show-desktop {
+    display: block !important;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.grey {
+    color: #606060;
+    font-size: 14px;
+}
+.facebook-app {
+    max-width: 810px;
+    margin: auto;
+    background-color: #20588b;
+    position: relative;
+}
+.validationerror {
+    font-size: 11px;
+    color: white;
+    line-height: 0px;
+    font-weight: 600;
+    background-color: red;
+    display: block;
+    padding: 14px 8px 14px 8px;
+    margin-bottom: 0px;
+}
+.character-count {
+    color: #e6bd2d;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.character-count.error {
+    color: red;
+}
+.background-video {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    background-image: url(../img/desktop-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    max-width: 810px;
+    height: 456px;
+}
+.background-video-bottom {
+    position: absolute;
+    bottom: 80px;
+    z-index: 2;
+    background-image: url(../img/desktop-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    max-width: 810px;
+    height: 456px;
+}
+.background-video-bottom > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.facebook-app-inner {
+    z-index: 10;
+    position: relative;
+}
+.fish {
+    position: absolute;
+    top: 0px;
+    z-index: 9;
+    pointer-events: none;
+    width: 100%;
+    overflow: hidden;
+}
+.header {
+    padding-top: 130px;
+    text-align: center;
+}
+.header img {
+    width: 410px;
+    position: relative;
+    z-index: 600;
+}
+.introduction {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+.introduction h1 {
+    color: #97d8e9;
+}
+.entry-form {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.steps {
+    margin-bottom: 50px;
+    padding-top: 60px;
+}
+.circle {
+    border: 10px solid #e6bd2d;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+.circle span {
+    color: #e6bd2d;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: 600;
+}
+.circle-copy {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 140px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.circle-copy a {
+    padding-top: 10px;
+    display: inline-block;
+}
+.arrow {
+    width: 26px;
+    position: absolute;
+    right: -30px;
+    top: 40px;
+}
+.label-cb {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+form[name='form'] .row {
+    margin-bottom: 20px;
+}
+input[type=radio].css-checkbox {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+input[type=radio].css-checkbox + label.css-label {
+    padding-left: 36px;
+    height: 24px;
+    display: inline-block;
+    line-height: 24px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+input[type=radio].css-checkbox:checked + label.css-label {
+    background-position: 0 -24px;
+}
+label.css-label {
+    background-image: url(../img/checkbox.png);
+    background-size: 24px 48px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type=text], input[type=email], input[type=date], textarea {
+    border: 2px solid white;
+    background-color: rgba(10, 34, 84, 0.29);
+    border-radius: 0;
+    color: #98d7e8;
+    margin-bottom: 0px;
+}
+input[type=time] {
+    padding: 5px;
+}
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    border: 2px solid white;
+    outline: 0;
+}
+.entry-form label {
+    line-height: 16px;
+    color: white;
+}
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #c57c26;
+    background-color: #e6bd2d;
+    border-color: #e6bd2d;
+    text-transform: capitalize;
+    font-size: 28px;
+    height: 70px;
+    line-height: 48px;
+    letter-spacing: 0px;
+}
+button.button-primary:disabled, .button.button-primary:disabled, input[type="submit"].button-primary:disabled {
+    border: 2px solid white;
+    color: white;
+    background: none;
+}
+input[type="submit"].button-primary:hover:disabled {
+    background: none;
+}
+button.button-primary:hover {
+    color: #98d7e8;
+    color: white;
+}
+textarea {
+    line-height: 18px;
+}
+.trailer {
+    position: relative;
+}
+.play-button {
+    cursor: pointer;
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 50%;
+    top: 50%;
+    margin-top: -46px;
+    margin-left: -46px;
+}
+.qantas-logo {
+    position: absolute;
+    right: 0px;
+    bottom: 110px;
+}
+footer {
+    height: 110px;
+    /*margin-top: 320px;*/
+    margin-top: 230px;
+}
+.footer-inner {
+    background-color: #134471;
+    height: 150px;
+    position: relative;
+}
+.footer-inner > img {
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.terms {
+    position: absolute;
+    font-size: 12px;
+    line-height: 13px;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+    width: 364px;
+    /*width: 562px;*/
+    color: white;
+    top: 14px;
+    text-align: right;
+}
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #98d7e8;
+    border-color: #98d7e8;
+}
+.label-body {
+    font-weight: 600;
+    font-size: 16px;
+}
+input[type=checkbox].css-checkbox {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-left: 35px;
+    height: 24px;
+    display: inline-block;
+    line-height: 24px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -24px;
+}
+.dory {
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.nemo {
+    position: absolute;
+    right: 10px;
+    top: 230px;
+}
+.marlin {
+    position: absolute;
+    left: -180px;
+    top: 630px;
+}
+.hank {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+.hank-arm {
+    bottom: -20px;
+    position: absolute;
+    left: 180px;
+}
+.copyright {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    /*left: 220px;*/
+    left: 20px;
+    bottom: 10px;
+    /*top: 80px;*/
+}
+.server-error {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        min-height: 150px;
+    }
+    .qantas-logo {
+        position: absolute;
+        right: 0px;
+        bottom: 150px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .dory {
+        display: block;
+    }
+    .header {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .header img {
+        width: 280px;
+    }
+    .introduction {
+        padding: 15px;
+    }
+    .arrow {
+        display: none;
+    }
+    .circle-copy {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    footer {
+        margin-top: 160px;
+        min-height: 240px;
+    }
+    footer img {
+        width: 175px;
+    }
+    form .columns {
+        margin-bottom: 20px;
+    }
+    form[name='form'] .row {
+        margin-bottom: 0px;
+    }
+    .terms {
+        width: auto;
+        margin: auto;
+        position: relative;
+        margin-bottom: 70px;
+        text-align: center;
+        left: 0;
+        top: 0;
+    }
+    .entry-form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+        color: #c57c26;
+        background-color: #e6bd2d;
+        border-color: #e6bd2d;
+        text-transform: capitalize;
+        font-size: 22px;
+        height: 70px;
+        line-height: 48px;
+        letter-spacing: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .trailer {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .trailer > img {
+        width: 100%;
+    }
+    .play-button {
+        cursor: pointer;
+        position: absolute;
+        width: 92px !important;
+        height: 92px !important;
+        left: 50%;
+        top: 50%;
+        margin-top: -46px;
+        margin-left: -46px;
+    }
+    .share-button {
+        width: 260px;
+    }
+    .qantas-cta {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 110px;
+    }
+    .hank {
+        position: absolute;
+        bottom: 230px;
+        left: 0;
+    }
+    .hank-body {
+        width: 120px;
+    }
+    .hank-arm {
+        width: 100px;
+        left: 80px;
+    }
+    .footer-inner {
+        height: auto;
+        padding: 14px;
+        text-align: center;
+    }
+    .terms {
+        position: relative;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .copyright {
+        position: relative;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        left: auto;
+        bottom: auto;
+    }
+    .footer-inner > img {
+        height: 40px;
+        width: auto;
+        position: relative;
+        margin: auto;
+        left: auto;
+    }
+    .qantas-logo {
+        bottom: 240px;
+    }
+}

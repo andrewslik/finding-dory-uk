@@ -1,0 +1,358 @@
+/*video {
+  display: none;
+}
+.dory{
+  display: block;
+}*/
+
+.facebook-app {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Nemo */
+.nemo-left-eye {
+  position: absolute;
+  left: -124px;
+  top: 50px;
+  width: 22px;
+  height: 25px;
+  opacity: 1;
+  border-radius: 12px 7px;
+  z-index: 300;
+}
+
+.nemo-right-eye {
+  position: absolute;
+  top: 56px;
+  left: -88px;
+  width: 28px;
+  height: 26px;
+  border-radius: 23px 21px 18px 16px;
+  z-index: 300;
+}
+
+.clown-fish-skin {
+  background: #f7a254; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #f7a254 1%, #e5673b 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #f7a254 1%,#e5673b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #f7a254 1%,#e5673b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a254', endColorstr='#e5673b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.nemo-body {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.nemo-container {
+  position: relative;
+}
+.nemo-body-01 {
+  position: absolute;
+  top: 5px;
+  left: -259px;
+  transform: rotate(23deg);
+  z-index: 200;
+}
+.nemo-body-02 {
+  position: absolute;
+  top: -24px;
+  left: -247px;
+  transform: rotate(16deg);
+  z-index: 200;
+}
+.nemo-body-03 {
+  position: absolute;
+  top: 16px;
+  left: -172px;
+  transform: rotate(16deg);
+  z-index: 200;
+}
+.nemo-body-04 {
+  position: absolute;
+  top: 0px;
+  left: -190px;
+  transform: rotate(-8deg);
+  z-index: 200;
+}
+.nemo-body-05 {
+  position: absolute;
+  top: 1px;
+  left: -198px;
+  transform: rotate(-8deg);
+  z-index: 200;
+}
+
+.nemo-04-container {
+  position: relative;
+  left: -40px;
+}
+.nemo-body-04-body {
+  position: absolute;
+  top: 0;
+  left: -130px;
+}
+.nemo-right-fin-04 {
+  position: absolute;
+  top: 54px;
+  left: -43px;
+}
+.nemo-left-fin-04 {
+  position: absolute;
+  top: 72px;
+  left: -145px;
+}
+
+.nemo-top-fin-04 {
+  position: absolute;
+  top: -11px;
+  left: -85px;
+}
+
+
+/*MARLIN*/
+.marlin-container {
+  display: none;
+}
+
+.marlin-body {
+  opacity: 0.4;
+}
+
+.marlin-body-01 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.marlin-right-fin {
+  position: absolute;
+  top: 97px;
+  left: 229px;
+}
+
+.marlin-left-fin {
+  position: absolute;
+  top: 145px;
+  left: 81px;
+}
+
+.marlin-bottom-left-fin {
+  position: absolute;
+  top: 170px;
+  left: 141px;
+}
+
+.marlin-bottom-right-fin {
+  position: absolute;
+  top: 175px;
+  left: 161px;
+}
+
+.marlin-left-eye {
+  position: absolute;
+  top: 96px;
+  left: 175px;
+  width: 30px;
+  height: 27px;
+  z-index: 200;
+  border-radius: 16px 12px 14px 10px;
+}
+
+.marlin-right-eye {
+  position: absolute;
+  top: 100px;
+  left: 219px;
+  z-index: 300;
+  width: 21px;
+  height: 29px;
+  border-radius: 15px 13px 11px 17px;
+}
+
+/* DORY */
+.dory-body-01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dory-left-fin {
+  position: absolute;
+  top: 32px;
+  left: 48px;
+}
+.dory-right-fin {
+  position: absolute;
+  top: 59px;
+  left: 134px;
+}
+.dory-left-eye {
+  position: absolute;
+  top: 25px;
+  left: 93px;
+  width: 24px;
+  height: 24px;
+  z-index: 200;
+  border-radius: 12px 11px 14px 12px;
+}
+.dory-right-eye {
+  position: absolute;
+  top: 23px;
+  left: 124px;
+  width: 18px;
+  height: 22px;
+  z-index: 200;
+  border-radius: 11px 56px 10px 55px;
+}
+
+.dory-skin {
+  background: #28a1d8; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #28a1d8 0%, #244095 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #28a1d8 0%,#244095 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #28a1d8 0%,#244095 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28a1d8', endColorstr='#244095',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/*HANK*/
+
+.hank-left-eye {
+  position: absolute;
+  left: 116px;
+  top: 23px;
+  z-index: 300;
+  width: 70px;
+  height: 67px;
+}
+
+.hank-right-eye {
+  position: absolute;
+  left: 183px;
+  top: 63px;
+  z-index: 300;
+  height: 50px;
+  width: 47px;
+}
+
+/*Arrow container*/
+
+.arrow-container {
+  position: absolute;
+  top: 49px;
+  right: 150px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  transform: scale(1);
+  overflow: hidden;
+}
+.arrow-img-01, .arrow-img-02 {
+  margin: auto;
+  display: table-cell;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 425px) {
+  .arrow-container {
+    transform: scale(.6);
+    right: 64px;
+    top: 13px;
+  }
+  .hank-left-eye {
+    left: 53px;
+    top: 10px;
+    width: 40px;
+    height: 38px;
+  }
+  .hank-right-eye {
+    left: 88px;
+    top: 29px;
+    width: 30px;
+    height: 28px;
+  }
+}
+
+/* dugong */
+.dugong {
+  position: relative;
+  top: 764px;
+  left: -107px;
+  /*transform: rotate(13deg);*/
+}
+
+.dugong-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dugong-eye-lid {
+  position: absolute;
+  top: 82px;
+  left: 174px;
+  z-index: 200;
+}
+.dugong-left-fin {
+  position: absolute;
+  top: 161px;
+  left: 77px;
+}
+
+.dugong-right-fin {
+  position: absolute;
+  top: 165px;
+  left: 190px;
+}
+
+@media screen and (min-width: 780px) {
+  .terms {
+    width: 574px !important;
+  }
+
+  .footer-inner {
+    height: 110px !important;
+  }
+  .copyright {
+    left: 20px !important;
+    top: 80px !important;
+  }
+}
+
+/* WHale shark */
+.whale-shark {
+  position: relative;
+  top: 756px;
+  left: 167px;
+}
+
+.ws-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ws-left-fin {
+  position: absolute;
+  top: 131px;
+  left: 100px;
+}
+.ws-right-fin {
+  position: absolute;
+  top: 124px;
+  left: 306px;
+}
+.ws-left-eye {
+  position: absolute;
+  top: 61px;
+  left: 205px;
+}
+.ws-right-eye {
+  position: absolute;
+  top: 8px;
+  left: 377px;
+}

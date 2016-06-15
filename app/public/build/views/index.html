@@ -1,0 +1,166 @@
+<section class="header">
+    <img src="/img/logo.svg" alt="" />
+</section>
+
+<section class="introduction">
+    <h1>In cinemas 29 July<br>Win tickets to the London Premiere of Disney.Pixar's Finding Dory</h1>
+    <p>To celebrate the release of Disney.Pixar's Finding Dory, we’re giving one lucky family the chance to win four tickets to the London Premiere on 10 July 2016.</p>
+    <span>You must be a UK resident (excluding Northern Ireland) 18 years or over to enter.<br>Entries close 11.59pm 3 July 2016.</span>
+</section>
+
+<section class="steps">
+    <div class="row">
+        <div class="four columns">
+            <div class="circle">
+                <span>1</span>
+            </div>
+            <p class="circle-copy">Book a Qantas flight to Australia, New Zealand or Dubai between 20 June and 3 July 2016 on qantas.com.<br><a href="http://www.qantas.com/travel/airlines/international-flight-specials/global/en?departureAirportCode=LHR&travelClass=ECO&alt_cam=uk:fb:jun16:fd:book " target="_blank"><img src="/img/bookbutton.png"></a></p>
+            <img class="arrow" src="/img/arrow.png" alt="" />
+        </div>
+
+        <div class="four columns">
+            <div class="circle">
+                <span>2</span>
+            </div>
+            <p class="circle-copy">Complete the entry form</p>
+            <img class="arrow" src="/img/arrow.png" alt="" />
+        </div>
+
+        <div class="four columns">
+            <div class="circle">
+                <span>3</span>
+            </div>
+            <p class="circle-copy">Include your Qantas Frequent Flyer number for an extra entry.</p>
+        </div>
+    </div>
+</section>
+
+<section class="entry-form left">
+    <form name="form" data-ng-submit="formSubmit()" novalidate>
+        <div class="row">
+            <div class="six columns">
+                <label>Booking Reference *</label>
+                <input class="u-full-width" type="text" name="booking" ng-model="entry.booking" ng-required="true" placeholder="XXXXXXXXX">
+                <p class="error validationerror" ng-show="form.booking.$invalid && form.booking.$touched">*Booking Reference is required</p>
+            </div>
+            <!-- <div class="six columns">
+                <span class="label-cb">Are you flying for</span>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="radio" name="trip" id="business-radio" class="css-checkbox" ng-model="entry.trip" value="business" />
+                                <label for="business-radio" class="css-label radGroup1">Business</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="trip" id="leisure-radio" class="css-checkbox" ng-model="entry.trip" value="leisure" checked/>
+                                <label for="leisure-radio" class="css-label radGroup1">Leisure</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
+
+        <div class="row">
+            <div class="twelve columns">
+                <label>Flight Number *</label>
+                <input class="u-full-width" type="text" name="departure" ng-model="entry.flight" ng-required="true"  placeholder="QFXXX">
+                <p class="error validationerror" ng-show="form.departure.$invalid && form.departure.$touched">*Flight Number is required</p>
+            </div>
+            <!-- <div class="six columns">
+                <label>Departure Date *</label>
+                <input class="u-full-width" type="date" name="arrival" ng-model="entry.arrival" ng-required="true" placeholder="i.e. 12:00 PM">
+                <p class="error validationerror" ng-show="form.arrival.$invalid && form.arrival.$touched">*Departure Date is required</p>
+            </div> -->
+        </div>
+
+        <div class="row">
+            <div class="six columns">
+                <label>First Name *</label>
+                <input class="u-full-width" type="text" name="name" ng-model="entry.name" ng-required="true" placeholder="i.e John">
+                <p class="error validationerror" ng-show="form.name.$invalid && form.name.$touched">*First Name is required</p>
+            </div>
+            <div class="six columns">
+                <label>Last Name *</label>
+                <input class="u-full-width" type="text" name="surname" ng-model="entry.surname" ng-required="true" placeholder="i.e Smith">
+                <p class="error validationerror" ng-show="form.surname.$invalid && form.surname.$touched">*Last Name is required</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="six columns">
+                <label>Email *</label>
+                <input class="u-full-width" type="email" name="email" ng-model="entry.email" ng-required="true" placeholder="dory@disney.co.uk">
+                <p class="error validationerror" ng-show="form.email.$invalid && form.email.$touched">*Email is required</p>
+            </div>
+            <div class="six columns">
+                <label>Contact Number *</label>
+                <input class="u-full-width" type="text" name="phone" ng-model="entry.phone" ng-required="true" ng-minlength="10" ng-maxlength="10" placeholder="07XXX-XXX-XXX">
+                <p class="error validationerror" ng-show="form.phone.$invalid && form.phone.$touched">*Phone is required</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="twelve columns">
+                <label>Qantas Frequent Flyer Number</label>
+                <input class="u-full-width" type="text" name="qffn" ng-model="entry.qffn" ng-required="false" placeholder="QFXXXXXXXXXX">
+                <!-- <p class="error validationerror" ng-show="form.email.$invalid && form.email.$touched">*Email is required</p> -->
+            </div>
+        </div>
+
+        <!--<div class="row">
+            <div class="twelve columns">
+                <label>In 25 words or less, tell us your favourite Dory moment *</label>
+                <textarea ng-model="entry.answer" class="u-full-width" name="answer" ng-required="true"></textarea>
+                <div class="character-count" ng-class="{'error':countOf(entry.answer) > 25}">
+                    <span ng-bind="25 - countOf(entry.answer)">25</span> words left.
+                </div> -->
+                <!-- <p class="error validationerror" ng-show="form.answer.$invalid && form.answer.$touched">Answer is required</p> -->
+            <!-- </div> -->
+        <!-- </div> -->
+
+        <div class="row">
+            <div class="twelve columns">
+                <input type="checkbox" name="terms-checkbox" id="terms-checkbox" class="css-checkbox" ng-model="entry.terms" ng-required="true" />
+                <label for="terms-checkbox" class="css-label">I agree to the <a target="_blank" href="http://www.qantas.com.au/infodetail/regions/uk/finding-dory-terms.pdf">Terms &amp; Conditions</a> *</label>
+            </div>
+            <div class="twelve columns">
+                <input type="checkbox" name="subscribe-checkbox" id="subscribe-checkbox" class="css-checkbox" ng-model="entry.subscribe" ng-required="false" />
+                <label for="subscribe-checkbox" class="css-label">Subscribe to Qantas Red Email for the latest flight offers</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="twelve columns">
+              <div class="server-error">
+                <p class="error validationerror"></p>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="twelve columns">
+                <input class="button-primary button-xl u-full-width" type="submit" value="Enter the competition" ng-disabled="form.$invalid">
+            </div>
+        </div>
+
+    </form>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <div class="terms">
+              The promotion is in no way sponsored, endorsed or administered by, or associated with, Facebook. You are providing information to the Promoter and not Facebook. Promoter: Qantas Airways Limited. Promotion Period: 20 June to 3 July 2016. Eligible Entrants: UK residents (excluding Northern Ireland) 18+. Entry: Eligible Entrants must during the promotion period make an Eligible Booking on qantas.com. Eligible booking: a return flight to Australia, New Zealand or Dubai with a Qantas (QF) flight number. Draw: will take place at the offices of the promoter on 4 July 2016. Winner Notification: by phone and/or e-mail within 2 working days of the draw date. Full <a href="http://www.qantas.com.au/infodetail/regions/uk/finding-dory-terms.pdf " target="_blank">terms and conditions</a>.
+        </div>
+        <div class="copyright">
+          &copy; 2016 Disney/Pixar
+        </div>
+        <img class="classification" src="/img/classification.png" alt="" />
+    </div>
+    <img class="qantas-logo" src="/img/qantas-logo.png" />
+    <div class="classification-footer">
+</footer>
+
+
+</div>
