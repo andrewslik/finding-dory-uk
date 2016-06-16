@@ -3,7 +3,7 @@
 </section>
 
 <section class="introduction">
-    <h1>In cinemas 29 July<br>Win tickets to the London Premiere of Disney.<br>Pixar's Finding Dory</h1>
+    <h1><span class="dory-display-date">In cinemas 29 July</span><br>Win tickets to the London Premiere of Disney.<br>Pixar's Finding Dory</h1>
     <p>To celebrate the release of Disney.Pixar's Finding Dory, we’re giving one lucky family the chance to win four tickets to the London Premiere on 10 July 2016.</p>
     <span>You must be a UK resident (excluding Northern Ireland) 18 years or over to enter.<br>Entries close 11.59pm 3 July 2016.</span>
 </section>
@@ -96,7 +96,7 @@
             </div>
             <div class="six columns">
                 <label>Contact Number *</label>
-                <input class="u-full-width" type="text" name="phone" ng-model="entry.phone" ng-required="true" ng-minlength="10" ng-maxlength="10" placeholder="07XXX-XXX-XXX">
+                <input class="u-full-width" type="text" name="phone" ng-model="entry.phone" ng-required="true" ng-minlength="10" ng-maxlength="10" placeholder="07XXX XXX XXX">
                 <p class="error validationerror" ng-show="form.phone.$invalid && form.phone.$touched">*Phone is required</p>
             </div>
         </div>
@@ -129,6 +129,14 @@
                 <input type="checkbox" name="subscribe-checkbox" id="subscribe-checkbox" class="css-checkbox" ng-model="entry.subscribe" ng-required="false" />
                 <label for="subscribe-checkbox" class="css-label">Subscribe to Qantas Red Email for the latest flight offers</label>
             </div>
+        </div>
+        
+        <div class="row">
+          <div class="twelve columns">
+            <div class="required-field">
+              <p>* = required field</p>
+            </div>
+          </div>
         </div>
 
         <div class="row">

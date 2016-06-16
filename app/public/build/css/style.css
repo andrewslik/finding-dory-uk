@@ -172,7 +172,7 @@ th, td {
     padding: 60px;
     text-align: center;
     color: white;
-    margin-top: 90px;
+    padding-top: 0px;
 }
 .introduction h1 {
     color: #97d8e9;
@@ -436,6 +436,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
         right: 0px;
         bottom: 150px;
     }
+
 }
 @media screen and (max-width: 425px) {
     .dory {
@@ -564,4 +565,23 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
     .qantas-logo {
         bottom: 240px;
     }
+}
+
+.required-field {
+  color: #fff;
+  font-weight: 600;
+}
+
+.dory-display-date {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 550px) {
+  .dory-display-date {
+    font-size: 47px;
+  }
 }
