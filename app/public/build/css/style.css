@@ -574,7 +574,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 
 .dory-display-date {
   font-size: 36px;
-  color: #fff;
+  color: #fff !important;
   font-weight: 400;
   display: inline-block;
   margin-bottom: 30px;
