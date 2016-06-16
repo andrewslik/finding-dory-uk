@@ -574,10 +574,10 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 
 .dory-display-date {
   font-size: 36px;
-  color: #fff !important;
+  color: #fff;
   font-weight: 400;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 550px) {
