@@ -571,13 +571,16 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
   color: #fff;
   font-weight: 600;
 }
-
+.required-field p {
+  font-size: 14px;
+}
 .dory-display-date {
   font-size: 36px;
   color: #fff;
   font-weight: 400;
   display: inline-block;
   margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 @media screen and (min-width: 550px) {
