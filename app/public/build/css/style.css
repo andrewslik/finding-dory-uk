@@ -598,3 +598,9 @@ p .bullet-char {
   font-size: inherit;
   margin: 0 -3px;
 }
+
+@-moz-document url-prefix() {
+   .facebook-app {
+       background-color: #104c81;
+   }
+}
