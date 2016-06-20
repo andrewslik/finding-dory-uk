@@ -1,5 +1,8 @@
 var md = new MobileDetect(window.navigator.userAgent);
 
+var doc = document.documentElement;
+doc.setAttribute('data-useragent', navigator.userAgent);
+
 function initCSS() {
   TweenLite.set($(".nemo-left-eye"), {autoAlpha:0})
   TweenLite.set($(".nemo-right-eye"), {autoAlpha:0})

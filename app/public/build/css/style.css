@@ -608,3 +608,7 @@ p .bullet-char {
 .thanks-intro {
   padding-top: 140px;
 }
+
+html[data-useragent*='MSIE 10.0'] .facebook-app {
+  background-color: #104c81;
+}
