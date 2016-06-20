@@ -588,3 +588,13 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
     font-size: 47px;
   }
 }
+
+h1 .bullet-char {
+  font-size: inherit;
+  margin: 0 -10px;
+}
+
+p .bullet-char {
+  font-size: inherit;
+  margin: 0 -3px;
+}
